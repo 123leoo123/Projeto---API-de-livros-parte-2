@@ -3,7 +3,6 @@ import { isBookIdEqual, isBookIdValid } from "../middleware/isBookValid.middlewa
 import { validateRequest } from "../middleware/validateRequest.middleware";
 import { createBookBodySchema, editBookBodySchema } from "../schema/createBody.schemas";
 import { booksControllers } from "../controllers/booksControllers";
-import { booksServices } from "../services/booksServices";
 
 export const booksRoutes = Router();
 
